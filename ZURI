@@ -1,0 +1,11 @@
+def find_anagram( str1, str2):
+    str1 = 'god'
+    str2 = 'dog'
+    str1_anagram = sorted(str1)
+    str2_anagram = sorted(str2)
+
+    if str1_anagram == str2_anagram :
+            return True
+    else:
+            return False
+print(find_anagram('god', 'dog'))
